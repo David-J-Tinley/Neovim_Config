@@ -2,7 +2,7 @@
 --     File Name           :     /Users/djt/.config/nvim/lua/options.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:53]
---     Last Modified       :     [2023-07-01 14:37]
+--     Last Modified       :     [2023-07-02 21:05]
 --     Description         :     all of the vim.opt settings 
 --------------------------------------------------------------------------------
 
@@ -39,3 +39,4 @@ vim.opt.splitbelow = true       -- handles spliting of screen
 vim.opt.splitright = true       -- handles spliting of screen 
 vim.opt.termguicolors = false   -- Using term colors doesn't work for this terminal
 vim.opt.background = 'dark'     -- Set background to darkmode
+--------------------------------------------------------------------------------
