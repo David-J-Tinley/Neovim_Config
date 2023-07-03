@@ -2,7 +2,7 @@
 --     File Name           :     nvim-cmp.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:22]
---     Last Modified       :     [2023-07-02 19:50]
+--     Last Modified       :     [2023-07-03 15:00]
 --     Description         :      
 --------------------------------------------------------------------------------
 
@@ -81,5 +81,8 @@ require('lspconfig')['vimls'].setup {
     capabilities = capabilities
 }
 require('lspconfig')['cmake'].setup {
+    capabilities = capabilities
+}
+require('lspconfig')['bashls'].setup {
     capabilities = capabilities
 }
