@@ -2,7 +2,7 @@
 --     File Name           :     /Users/djt/.config/nvim/lua/options.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:53]
---     Last Modified       :     [2023-07-02 21:05]
+--     Last Modified       :     [2023-07-03 19:11]
 --     Description         :     all of the vim.opt settings 
 --------------------------------------------------------------------------------
 
@@ -16,6 +16,7 @@ vim.opt.foldlevelstart = 99     --
 vim.opt.swapfile = false        -- Don't create swap files
 vim.opt.backup = false          -- Don't create backup files
 vim.opt.number = true           -- Displays line numbers
+vim.opt.relativenumber = true   -- Display line number relative to cursor pos
 vim.opt.mouse = 'a'             -- Allows all mouse functions
 vim.opt.cursorline = true       -- Adds line under cursor
 vim.opt.cursorcolumn = true     -- Adds vertical line at cursor
