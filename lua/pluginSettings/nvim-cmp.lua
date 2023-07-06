@@ -3,10 +3,10 @@
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:22]
 --     Last Modified       :     [2023-07-03 15:00]
---     Description         :      
+--     Description         :
 --------------------------------------------------------------------------------
 
-local cmp = require'cmp'
+local cmp = require 'cmp'
 
 cmp.setup({
     snippet = {

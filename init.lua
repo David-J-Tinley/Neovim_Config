@@ -7,16 +7,16 @@
 --------------------------------------------------------------------------------
 
 ---VIM.LOADER-------------------------------------------------------------------
-vim.loader.enable()                  -- Helps Neovim load faster
+vim.loader.enable() -- Helps Neovim load faster
 --------------------------------------------------------------------------------
 
 ---INIT.LUA-Requirements--------------------------------------------------------
-require('pluginsList')               -- Require pluginsList file (~/.config/nvim/lua/pluginsList.lua)
-require('keybindings')               -- Require keybindings file (~/.config/nvim/lua/keybindings.lua)
-require('options')                   -- Require options file (~/.config/nvim/lua/options.lua)
-require('commands')                  -- Require commands file (~/.config/nvim/lua/commands.lua)
-require('globals')                   -- Require globals file (~/.config/nvim/lua/globals.lua)
-require('api')                       -- Require api file (~/.config/nvim/lua/api.lua)
+require('pluginsList') -- Require pluginsList file (~/.config/nvim/lua/pluginsList.lua)
+require('keybindings') -- Require keybindings file (~/.config/nvim/lua/keybindings.lua)
+require('options')     -- Require options file (~/.config/nvim/lua/options.lua)
+require('commands')    -- Require commands file (~/.config/nvim/lua/commands.lua)
+require('globals')     -- Require globals file (~/.config/nvim/lua/globals.lua)
+require('api')         -- Require api file (~/.config/nvim/lua/api.lua)
 --------------------------------------------------------------------------------
 
 ---PLUGIN.SETTINGS-Requirements-Files-------------------------------------------
