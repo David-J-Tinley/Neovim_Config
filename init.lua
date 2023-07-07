@@ -2,7 +2,7 @@
 -- File Name           :     .config/nvim/init.lua
 -- Created By          :     David J Tinley
 -- Creation Date       :     [2023-06-29 06:50]
--- Last Modified       :     [2023-07-02 11:51]
+-- Last Modified       :     [2023-07-06 20:16]
 -- Description         :     init.lua settings for Neovim
 --------------------------------------------------------------------------------
 

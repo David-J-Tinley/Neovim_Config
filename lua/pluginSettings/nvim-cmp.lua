@@ -2,7 +2,7 @@
 --     File Name           :     nvim-cmp.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:22]
---     Last Modified       :     [2023-07-03 15:00]
+--     Last Modified       :     [2023-07-06 20:02]
 --     Description         :
 --------------------------------------------------------------------------------
 
@@ -29,9 +29,8 @@ cmp.setup({
     }),
     sources = cmp.config.sources({
         { name = 'nvim_lsp' },
-        { name = 'luasnip' }, -- For luasnip users.
-    }, {
-        { name = 'buffer' },
+        { name = 'luasnip', option = { show_autosnippets = true }}, -- For luasnip users.
+        { name = 'buffer' }
     })
 })
 

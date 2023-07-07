@@ -2,7 +2,7 @@
 --     File Name           :     /Users/djt/.config/nvim/lua/options.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:53]
---     Last Modified       :     [2023-07-03 19:11]
+--     Last Modified       :     [2023-07-06 20:15]
 --     Description         :     all of the vim.opt settings
 --------------------------------------------------------------------------------
 
@@ -12,7 +12,7 @@ vim.opt.fileencoding = "utf-8" -- File encoding
 vim.opt.fileformat = "unix"    -- Set file format to unix
 vim.opt.spell = true           -- Spell check on
 vim.opt.foldmethod = "syntax"  -- Syntax style folding
-vim.opt.foldlevelstart = 99    --
+vim.opt.foldlevelstart = 99    -- Start with all folds open
 vim.opt.swapfile = false       -- Don't create swap files
 vim.opt.backup = false         -- Don't create backup files
 vim.opt.number = true          -- Displays line numbers
@@ -36,8 +36,9 @@ vim.opt.shiftwidth = 4         --
 vim.opt.expandtab = true       --
 vim.opt.autoindent = true      -- Automatically indents
 vim.opt.smartindent = true     -- Indents off of filetype
-vim.opt.splitbelow = true      -- handles spliting of screen
-vim.opt.splitright = true      -- handles spliting of screen
+vim.opt.splitbelow = true      -- Handles spliting of screen
+vim.opt.splitright = true      -- Handles spliting of screen
 vim.opt.termguicolors = false  -- Using term colors doesn't work for this terminal
 vim.opt.background = 'dark'    -- Set background to darkmode
 --------------------------------------------------------------------------------
+

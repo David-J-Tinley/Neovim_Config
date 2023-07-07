@@ -2,7 +2,7 @@
 --     File Name           :     .config/nvim/lua/plugins.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-06-29 18:41]
---     Last Modified       :     [2023-07-05 16:54]
+--     Last Modified       :     [2023-07-06 19:58]
 --     Description         :     Plugins list for Neovim
 --------------------------------------------------------------------------------
 
@@ -42,4 +42,5 @@ return require('packer').startup(function(use)
     use { 'hrsh7th/nvim-cmp' }                              -- Nvim completions
     use { "L3MON4D3/LuaSnip", run = "make install_jsregexp" } -- Lua snipptes for completions
     use { 'vuciv/vim-bujo' }                                -- Adds ToDo list
+    use { 'saadparwaiz1/cmp_luasnip' }
 end)
