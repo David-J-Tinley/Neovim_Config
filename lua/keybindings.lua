@@ -2,7 +2,7 @@
 -- File Name           :     /Users/djt/.config/nvim/lua/keybindings.lua
 -- Created By          :     djt
 -- Creation Date       :     [2023-07-01 07:48]
--- Last Modified       :     [2023-07-06 06:40]
+-- Last Modified       :     [2023-07-06 21:28]
 -- Description         :     Key bindings for neovim 
 --------------------------------------------------------------------------------
 
@@ -24,6 +24,7 @@ vim.keymap.set('n', '<leader>u', ':UndotreeToggle<CR>', {desc = 'Toggle Undo Tre
 vim.keymap.set('n', '<leader>n', ':BufferLineCycleNext<CR>', {desc = 'Switch to Next Buffer Tab'})
 vim.keymap.set('n', '<leader>p', ':BufferLineCyclePrev<CR>', {desc = 'Switch to Previous Buffer Tab'})
 vim.keymap.set('n', '<leader>l', ':Todo ~/.cache/bujo/todo.md<CR>', {desc = 'Open Todo list'})
+vim.keymap.set('n', '<leader>a', ':Alpha<CR>', {desc = 'Neovim Alpha'})
 --------------------------------------------------------------------------------
 
 ---Visual-Mode-Re-mappings------------------------------------------------------

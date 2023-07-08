@@ -2,7 +2,7 @@
 -- File Name           :     .config/nvim/init.lua
 -- Created By          :     David J Tinley
 -- Creation Date       :     [2023-06-29 06:50]
--- Last Modified       :     [2023-07-06 20:16]
+-- Last Modified       :     [2023-07-08 18:27]
 -- Description         :     init.lua settings for Neovim
 --------------------------------------------------------------------------------
 
@@ -25,6 +25,8 @@ require('pluginSettings.lspconfig')  -- Require lspconfig file (~/.config/nvim/l
 require('pluginSettings.lualine')    -- Require lualine file (~/.config/nvim/lua/pluginSettings/lualine.lua)
 require('pluginSettings.nvim-tree')  -- Require nvim-tree file (~/.config/nvim/lua/pluginSettings/nvim-tree.lua)
 require('pluginSettings.bufferline') -- Require bufferline file (~/.config/nvim/lua/pluginSettings/bufferline.lua)
+require('pluginSettings.live-server') -- Require live-server file (~/config/nvim/lua/pluginSettings/live-server.lua)
+require('pluginSettings.nvim-ts-autotag')
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------

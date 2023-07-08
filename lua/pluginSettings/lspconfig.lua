@@ -2,7 +2,7 @@
 --     File Name           :     lspconfig.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:47]
---     Last Modified       :     [2023-07-06 18:28]
+--     Last Modified       :     [2023-07-08 18:22]
 --     Description         :     language server setups for lspconfig plugin
 --------------------------------------------------------------------------------
 
@@ -21,3 +21,8 @@ require('lspconfig').pyright.setup {}  -- Use pyright language server
 require('lspconfig').vimls.setup {}    -- Use vim-language-server
 require('lspconfig').cmake.setup {}    -- Use cmake-language-server
 require('lspconfig').bashls.setup {}   -- Use bash language server
+require('lspconfig').html.setup{}      -- Use vscode html language server
+require('lspconfig').cssls.setup{}     -- Use vscode css language server
+
+
+

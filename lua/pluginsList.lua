@@ -2,7 +2,7 @@
 --     File Name           :     .config/nvim/lua/plugins.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-06-29 18:41]
---     Last Modified       :     [2023-07-06 19:58]
+--     Last Modified       :     [2023-07-08 18:21]
 --     Description         :     Plugins list for Neovim
 --------------------------------------------------------------------------------
 
@@ -29,18 +29,21 @@ return require('packer').startup(function(use)
         config = function()
             require 'alpha'.setup(require 'alpha.themes.startify'.config)
         end }
-    use { 'itchyny/vim-cursorword' }                        -- Underline word cursor is under
-    use { 'voldikss/vim-floaterm' }                         -- Adds floating terminal
-    use { 'akinsho/bufferline.nvim', tag = "*",             --
-        requires = 'nvim-tree/nvim-web-devicons' }          -- Adds buffer tabs at top of screen
-    use { 'mbbill/undotree' }                               -- Adds undo history tree display
-    use { 'nvim-lua/plenary.nvim' }                         -- Required for nvim-telescope (idk why though?)
-    use { 'hrsh7th/cmp-nvim-lsp' }                          -- Nvim completions
-    use { 'hrsh7th/cmp-buffer' }                            -- Nvim completions
-    use { 'hrsh7th/cmp-path' }                              -- Nvim completions
-    use { 'hrsh7th/cmp-cmdline' }                           -- Nvim completions
-    use { 'hrsh7th/nvim-cmp' }                              -- Nvim completions
+    use { 'itchyny/vim-cursorword' }                          -- Underline word cursor is under
+    use { 'voldikss/vim-floaterm' }                           -- Adds floating terminal
+    use { 'akinsho/bufferline.nvim', tag = "*",               --
+        requires = 'nvim-tree/nvim-web-devicons' }            -- Adds buffer tabs at top of screen
+    use { 'mbbill/undotree' }                                 -- Adds undo history tree display
+    use { 'nvim-lua/plenary.nvim' }                           -- Required for nvim-telescope (idk why though?)
+    use { 'hrsh7th/cmp-nvim-lsp' }                            -- Nvim completions
+    use { 'hrsh7th/cmp-buffer' }                              -- Nvim completions
+    use { 'hrsh7th/cmp-path' }                                -- Nvim completions
+    use { 'hrsh7th/cmp-cmdline' }                             -- Nvim completions
+    use { 'hrsh7th/nvim-cmp' }                                -- Nvim completions
     use { "L3MON4D3/LuaSnip", run = "make install_jsregexp" } -- Lua snipptes for completions
-    use { 'vuciv/vim-bujo' }                                -- Adds ToDo list
-    use { 'saadparwaiz1/cmp_luasnip' }
+    use { 'vuciv/vim-bujo' }                                  -- Adds ToDo list
+    use { 'saadparwaiz1/cmp_luasnip' }                        -- For snippet completions
+    use { 'vim-scripts/HTML-AutoCloseTag' }
+    use { 'barrett-ruth/live-server.nvim' }
+    use { 'windwp/nvim-ts-autotag'}
 end)
