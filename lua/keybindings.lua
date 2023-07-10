@@ -2,7 +2,7 @@
 -- File Name           :     /Users/djt/.config/nvim/lua/keybindings.lua
 -- Created By          :     David J Tinley
 -- Creation Date       :     [2023-07-01 07:48]
--- Last Modified       :     [2023-07-09 08:54]
+-- Last Modified       :     [2023-07-10 11:09]
 -- Description         :     Key bindings for neovim 
 --------------------------------------------------------------------------------
 
@@ -27,6 +27,8 @@ vim.keymap.set('n', '<leader>l', ':Todo ~/.cache/bujo/todo.md<CR>', {desc = 'Ope
 vim.keymap.set('n', '<leader>a', ':Alpha<CR>', {desc = 'Neovim Alpha'})
 vim.keymap.set('n', '<leader>H', ':read ~/.config/nvim/boilerPlateSnippets/htmlBoilerPlate.html<CR>', {desc = 'HTML Boiler Plate'})
 vim.keymap.set('n', '<leader>C', ':read ~/.config/nvim/boilerPlateSnippets/cppBoilerPlate.cpp<CR>', {desc = 'CPP Boiler Plate'})
+vim.keymap.set('n', '<leader>>', '<C-w>5>', {desc = 'Increase Window Size'})
+vim.keymap.set('n', '<leader><', '<C-w>5<', {desc = 'Decrease Window Size'})
 --------------------------------------------------------------------------------
 
 ---Visual-Mode-Re-mappings------------------------------------------------------

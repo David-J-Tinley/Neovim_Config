@@ -2,7 +2,7 @@
 --     File Name           :     /Users/djt/.config/nvim/lua/options.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:53]
---     Last Modified       :     [2023-07-09 20:59]
+--     Last Modified       :     [2023-07-10 11:37]
 --     Description         :     all of the vim.opt settings
 --------------------------------------------------------------------------------
 

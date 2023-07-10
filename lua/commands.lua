@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
 --     File Name           :     /Users/djt/.config/nvim/lua/commands.lua
---     Created By          :     djt
+--     Created By          :     David J Tinley
 --     Creation Date       :     [2023-07-01 11:56]
---     Last Modified       :     [2023-07-02 19:28]
+--     Last Modified       :     [2023-07-10 11:38]
 --     Description         :     vim.cmd settings and colorscheme
 --------------------------------------------------------------------------------
 
