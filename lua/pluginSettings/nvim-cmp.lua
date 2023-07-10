@@ -2,7 +2,7 @@
 --     File Name           :     nvim-cmp.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:22]
---     Last Modified       :     [2023-07-08 17:59]
+--     Last Modified       :     [2023-07-09 08:56]
 --     Description         :
 --------------------------------------------------------------------------------
 
@@ -16,8 +16,8 @@ cmp.setup({
         end,
     },
     window = {
-        -- completion = cmp.config.window.bordered(),
-        -- documentation = cmp.config.window.bordered(),
+        completion = cmp.config.window.bordered(),
+        documentation = cmp.config.window.bordered(),
     },
     mapping = cmp.mapping.preset.insert({
         ['<C-b>'] = cmp.mapping.scroll_docs(-4),

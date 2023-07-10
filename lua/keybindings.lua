@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
 -- File Name           :     /Users/djt/.config/nvim/lua/keybindings.lua
--- Created By          :     djt
+-- Created By          :     David J Tinley
 -- Creation Date       :     [2023-07-01 07:48]
--- Last Modified       :     [2023-07-06 21:28]
+-- Last Modified       :     [2023-07-09 08:54]
 -- Description         :     Key bindings for neovim 
 --------------------------------------------------------------------------------
 
@@ -25,6 +25,8 @@ vim.keymap.set('n', '<leader>n', ':BufferLineCycleNext<CR>', {desc = 'Switch to 
 vim.keymap.set('n', '<leader>p', ':BufferLineCyclePrev<CR>', {desc = 'Switch to Previous Buffer Tab'})
 vim.keymap.set('n', '<leader>l', ':Todo ~/.cache/bujo/todo.md<CR>', {desc = 'Open Todo list'})
 vim.keymap.set('n', '<leader>a', ':Alpha<CR>', {desc = 'Neovim Alpha'})
+vim.keymap.set('n', '<leader>H', ':read ~/.config/nvim/boilerPlateSnippets/htmlBoilerPlate.html<CR>', {desc = 'HTML Boiler Plate'})
+vim.keymap.set('n', '<leader>C', ':read ~/.config/nvim/boilerPlateSnippets/cppBoilerPlate.cpp<CR>', {desc = 'CPP Boiler Plate'})
 --------------------------------------------------------------------------------
 
 ---Visual-Mode-Re-mappings------------------------------------------------------
