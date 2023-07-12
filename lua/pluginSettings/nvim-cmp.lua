@@ -2,7 +2,7 @@
 --     File Name           :     nvim-cmp.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-07-01 11:22]
---     Last Modified       :     [2023-07-09 08:56]
+--     Last Modified       :     [2023-07-11 22:34]
 --     Description         :
 --------------------------------------------------------------------------------
 
@@ -62,36 +62,38 @@ cmp.setup.cmdline(':', {
 })
 
 -- Set up lspconfig.
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
+--local capabilities = require('cmp_nvim_lsp').default_capabilities()
 -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-require('lspconfig')['lua_ls'].setup {
-    capabilities = capabilities
-}
-require('lspconfig')['clangd'].setup {
-    capabilities = capabilities
-}
-require('lspconfig')['marksman'].setup {
-    capabilities = capabilities
-}
-require('lspconfig')['pyright'].setup {
-    capabilities = capabilities
-}
-require('lspconfig')['vimls'].setup {
-    capabilities = capabilities
-}
-require('lspconfig')['cmake'].setup {
-    capabilities = capabilities
-}
-require('lspconfig')['bashls'].setup {
-    capabilities = capabilities
-}
-require('lspconfig')['html'].setup {
-    capabilities = capabilities
-}
-require('lspconfig')['cssls'].setup {
-    capabilities = capabilities
-}
-
+--require('lspconfig')['lua_ls'].setup {
+--    capabilities = capabilities
+--}
+--require('lspconfig')['clangd'].setup {
+--    capabilities = capabilities
+--}
+--require('lspconfig')['marksman'].setup {
+--    capabilities = capabilities
+--}
+--require('lspconfig')['pyright'].setup {
+--    capabilities = capabilities
+--}
+--require('lspconfig')['vimls'].setup {
+--    capabilities = capabilities
+--}
+--require('lspconfig')['cmake'].setup {
+--    capabilities = capabilities
+--}
+--require('lspconfig')['bashls'].setup {
+--    capabilities = capabilities
+--}
+--require('lspconfig')['emmet_ls'].setup{
+--    capabilities = capabilities
+--}
+--require('lspconfig')['html'].setup {
+--    capabilities = capabilities
+--}
+--require('lspconfig')['cssls'].setup {
+--    capabilities = capabilities
+--}
 
 
 
