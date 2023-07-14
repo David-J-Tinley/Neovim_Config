@@ -94,11 +94,6 @@ _G.packer_plugins = {
     path = "/Users/djt/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
-  ["ccc.nvim"] = {
-    loaded = true,
-    path = "/Users/djt/.local/share/nvim/site/pack/packer/start/ccc.nvim",
-    url = "https://github.com/uga-rosa/ccc.nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/djt/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -194,10 +189,20 @@ _G.packer_plugins = {
     path = "/Users/djt/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  vim = {
+    loaded = true,
+    path = "/Users/djt/.local/share/nvim/site/pack/packer/start/vim",
+    url = "https://github.com/dracula/vim"
+  },
   ["vim-bujo"] = {
     loaded = true,
     path = "/Users/djt/.local/share/nvim/site/pack/packer/start/vim-bujo",
     url = "https://github.com/vuciv/vim-bujo"
+  },
+  ["vim-clang-format"] = {
+    loaded = true,
+    path = "/Users/djt/.local/share/nvim/site/pack/packer/start/vim-clang-format",
+    url = "https://github.com/rhysd/vim-clang-format"
   },
   ["vim-cursorword"] = {
     loaded = true,
@@ -213,6 +218,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/djt/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-gruvbox8"] = {
+    loaded = true,
+    path = "/Users/djt/.local/share/nvim/site/pack/packer/start/vim-gruvbox8",
+    url = "https://github.com/lifepillar/vim-gruvbox8"
   },
   ["which-key.nvim"] = {
     loaded = true,

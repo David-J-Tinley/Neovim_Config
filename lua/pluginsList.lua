@@ -2,7 +2,7 @@
 --     File Name           :     .config/nvim/lua/plugins.lua
 --     Created By          :     djt
 --     Creation Date       :     [2023-06-29 18:41]
---     Last Modified       :     [2023-07-11 22:34]
+--     Last Modified       :     [2023-07-14 16:35]
 --     Description         :     Plugins list for Neovim
 --------------------------------------------------------------------------------
 
@@ -34,7 +34,9 @@ return require('packer').startup(function(use)
     use { 'barrett-ruth/live-server.nvim' }       -- Better live server for nvim
     use { 'windwp/nvim-ts-autotag'}               -- Auto rename ml tags
     use { 'lukas-reineke/indent-blankline.nvim' } -- Indent lines
-    use { 'uga-rosa/ccc.nvim' }
-    use { 'aca/emmet-ls' }
+    use { 'aca/emmet-ls' }                        -- Specialized web dev language server
+    use { 'rhysd/vim-clang-format' }
+    use { 'dracula/vim' }
+    use { 'lifepillar/vim-gruvbox8' }
 
 end)

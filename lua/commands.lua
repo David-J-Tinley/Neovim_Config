@@ -2,7 +2,7 @@
 --     File Name           :     /Users/djt/.config/nvim/lua/commands.lua
 --     Created By          :     David J Tinley
 --     Creation Date       :     [2023-07-01 11:56]
---     Last Modified       :     [2023-07-10 11:38]
+--     Last Modified       :     [2023-07-14 16:43]
 --     Description         :     vim.cmd settings and colorscheme
 --------------------------------------------------------------------------------
 
@@ -12,5 +12,5 @@ vim.cmd [[syntax on]]
 --------------------------------------------------------------------------------
 
 -- Colorscheme -----------------------------------------------------------------
-vim.cmd.colorscheme('gruvbox')
+vim.cmd.colorscheme('gruvbox8_hard')
 --------------------------------------------------------------------------------
